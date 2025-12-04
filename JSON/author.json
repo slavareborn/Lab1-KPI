@@ -1,0 +1,14 @@
+{
+  "$id": "Author",
+  "type": "object",
+  "properties": {
+    "Author_ID": { "type": "integer" },
+    "FirstName": { "type": "string" },
+    "SecondName": { "type": "string" },
+    "DateOfBirth": { "type": "string", "format": "date" },
+    "DateOfDeath": { "type": "string", "format": "date" },
+    "CreatedAt": { "type": "string", "format": "date" },
+    "UpdatedAt": { "type": "string", "format": "date" }
+  },
+  "required": ["Author_ID", "FirstName"]
+}

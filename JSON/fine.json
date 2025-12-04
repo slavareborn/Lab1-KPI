@@ -1,0 +1,14 @@
+{
+  "$id": "Fine",
+  "type": "object",
+  "properties": {
+    "Fine_ID": { "type": "integer" },
+    "Date": { "type": "string", "format": "date" },
+    "Amount": { "type": "number" },
+    "Member_ID": { "type": "integer" },
+    "Loan_ID": { "type": "integer" },
+    "CreatedAt": { "type": "string", "format": "date" },
+    "UpdatedAt": { "type": "string", "format": "date" }
+  },
+  "required": ["Fine_ID", "Member_ID", "Loan_ID", "Amount"]
+}

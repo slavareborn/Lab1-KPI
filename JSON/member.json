@@ -1,0 +1,15 @@
+{
+  "$id": "Member",
+  "type": "object",
+  "properties": {
+    "Member_ID": { "type": "integer" },
+    "FullName": { "type": "string" },
+    "Phone": { "type": "string" },
+    "Email": { "type": "string", "format": "email" },
+    "Address": { "type": "string" },
+    "MembershipDate": { "type": "string", "format": "date" },
+    "CreatedAt": { "type": "string", "format": "date" },
+    "UpdatedAt": { "type": "string", "format": "date" }
+  },
+  "required": ["Member_ID", "FullName", "Phone", "Email"]
+}

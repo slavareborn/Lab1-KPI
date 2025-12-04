@@ -1,0 +1,18 @@
+{
+  "$id": "Book",
+  "type": "object",
+  "properties": {
+    "Book_ID": { "type": "integer" },
+    "Title": { "type": "string" },
+    "Author_ID": { "type": "integer" },
+    "Genre_ID": { "type": "integer" },
+    "AmountOfPages": { "type": "integer" },
+    "Cost": { "type": "number" },
+    "PublisherYear": { "type": "integer" },
+    "Publication": { "type": "string" },
+    "CopiesAvailable": { "type": "integer" },
+    "CreatedAt": { "type": "string", "format": "date" },
+    "UpdatedAt": { "type": "string", "format": "date" }
+  },
+  "required": ["Book_ID", "Title", "Author_ID", "Genre_ID"]
+}

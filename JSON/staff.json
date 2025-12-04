@@ -1,0 +1,15 @@
+{
+  "$id": "Staff",
+  "type": "object",
+  "properties": {
+    "Staff_ID": { "type": "integer" },
+    "FullName": { "type": "string" },
+    "Address": { "type": "string" },
+    "Phone": { "type": "string" },
+    "Position": { "type": "string" },
+    "Education": { "type": "string" },
+    "CreatedAt": { "type": "string", "format": "date" },
+    "UpdatedAt": { "type": "string", "format": "date" }
+  },
+  "required": ["Staff_ID", "FullName"]
+}

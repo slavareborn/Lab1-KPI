@@ -1,0 +1,14 @@
+{
+  "$id": "Loan",
+  "type": "object",
+  "properties": {
+    "Loan_ID": { "type": "integer" },
+    "Book_ID": { "type": "integer" },
+    "Member_ID": { "type": "integer" },
+    "Staff_ID": { "type": "integer" },
+    "LoanDate": { "type": "string", "format": "date" },
+    "ReturnDate": { "type": "string", "format": "date" },
+    "DueDate": { "type": "string", "format": "date" }
+  },
+  "required": ["Loan_ID", "Book_ID", "Member_ID", "Staff_ID", "LoanDate"]
+}

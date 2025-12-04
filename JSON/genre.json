@@ -1,0 +1,11 @@
+{
+  "$id": "Genre",
+  "type": "object",
+  "properties": {
+    "Genre_ID": { "type": "integer" },
+    "Name": { "type": "string" },
+    "CreatedAt": { "type": "string", "format": "date" },
+    "UpdatedAt": { "type": "string", "format": "date" }
+  },
+  "required": ["Genre_ID", "Name"]
+}
